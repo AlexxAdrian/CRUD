@@ -13,7 +13,7 @@ function save(req, res) {
             res.redirect('/');
         });
 }
-
+//Megusta pero me asusta
 function update(req, res) {
     const id = req.params.id;
     const { user, rol } = req.body;
