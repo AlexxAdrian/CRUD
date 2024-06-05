@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
             res.render('index.ejs', { results: [] });
         });
 });
-
+//huevos alexander
 router.get('/create', (req, res) => {
     res.render('create');
 });
